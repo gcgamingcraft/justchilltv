@@ -1,7 +1,7 @@
 # render.yaml
 
 services:
-  - type: static_site
+  - type: web
     name: justchill
     env: static
     buildCommand: echo "No build required for static site"
