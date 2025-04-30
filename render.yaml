@@ -1,1 +1,21 @@
+# render.yaml
 
+services:
+  - type: static_site
+    name: justchill
+    env: static
+    buildCommand: echo "No build required for static site"
+    publicPath: /
+    routes:
+      - type: rewrite
+        source: "/*"
+        destination: "/index.html"
+    headers:
+      - path: /*
+        values:
+          Cache-Control: no-cache, no-store, must-revalidate
+          Service-Worker-Allowed: /
+      - path: /sw.js
+        values:
+          Cache-Control: no-cache, no-store, must-revalidate
+          Service-Worker-Allowed: /
