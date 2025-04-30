@@ -1,0 +1,26 @@
+{
+    "name": "JustChill",
+    "short_name": "JustChill",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "description": "Stream your favorite movies and TV shows",
+    "icons": [
+        {
+            "src": "jc_logo_32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "jc_icon_192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "jc_icon_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
