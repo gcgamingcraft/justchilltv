@@ -11,7 +11,6 @@ services:
         destination: "/index.html"
     headers:
       - path: /*
-          Cache-Control: no-cache, no-store, must-revalidate
           Service-Worker-Allowed: /
       - path: /sw.js
           Cache-Control: no-cache, no-store, must-revalidate
