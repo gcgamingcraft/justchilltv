@@ -9,9 +9,3 @@ services:
       - type: rewrite
         source: "/*"
         destination: "/index.html"
-    headers:
-      - path: /*
-          Service-Worker-Allowed: /
-      - path: /sw.js
-          Cache-Control: no-cache, no-store, must-revalidate
-          Service-Worker-Allowed: /
