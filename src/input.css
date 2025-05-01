@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'sf-pro', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  body.dark {
+    --bg-color: #000;
+    --text-color: #fff;
+    --card-bg: #181818;
+    --gray-bg: #1a1a1a;
+    --glass-bg: rgba(36, 36, 36, 0.8);
+    --hover-bg: rgba(255,255,255,0.1);
+    --border-color: rgba(255,255,255,0.1);
+    --secondary-text: rgba(255,255,255,0.7);
+  }
+
+  body.light {
+    --bg-color: #f5f5f7;
+    --text-color: #1a1a1a;
+    --card-bg: #ffffff;
+    --gray-bg: #f2f2f7;
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --hover-bg: rgba(255,255,255,0.1);
+    --border-color: rgba(0, 0, 0, 0.1);
+    --secondary-text: rgba(0, 0, 0, 0.7);
+  }
+}
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
