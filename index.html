@@ -373,15 +373,20 @@
         }
         
         .row-nav-button {
-    z-index: 50; /* Higher z-index for visibility */
+    z-index: 30; /* Increased from 10 */
     background: var(--apple-glass) !important;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    transform: translateY(-50%) scale(1) translateZ(0); /* For hardware acceleration */
-    transform-origin: center center;
+    transform: scale(1) translateZ(0); /* Add for hardware acceleration */
+    transition: all 0.3s ease, transform 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        transform-origin: center center;
     will-change: transform;
     top: 50% !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smoother easing */
+    z-index: 50 !important; /* Increased from 30 */
+    transform: translateY(-50%) scale(1) translateZ(0);
+    background: var(--apple-glass) !important;
+    backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
 
