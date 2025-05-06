@@ -3536,9 +3536,9 @@ closeMobileSearch.addEventListener('click', toggleSearch);
             
         let playerUrl;
         if (mediaType === 'movie') {
-            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&theme=noir&language=en&lang-order=en,hi,fr,de,nl,pt&downloads=true&watchparty=true&allinone=true&backlink=https://justchilltv.vercel.app`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&theme=noir&language=en&lang-order=en,hi,fr,de,nl,pt&downloads=true&watchparty=true&allinone=true&backlink=https://justchilltv.vercel.app/#`;
         } else {
-            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&theme=noir&language=en&lang-order=en,hi,fr,de,nl,pt&downloads=true&watchparty=true&allinone=true&backlink=https://justchilltv.vercel.app`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&theme=noir&language=en&lang-order=en,hi,fr,de,nl,pt&downloads=true&watchparty=true&allinone=true&backlink=https://justchilltv.vercel.app/#`;
         }
 
         // Create fullscreen iframe
