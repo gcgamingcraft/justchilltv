@@ -3537,9 +3537,9 @@ closeMobileSearch.addEventListener('click', toggleSearch);
             
         let playerUrl;
         if (mediaType === 'movie') {
-            playerUrl = `https://vidora.su/movie/${mediaId}?colour=0089F1&autoplay=true&backbutton=https://justchilltv.netlify.app&pausescreen=true`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&theme=noir&language=en&lang-order=en,hi,fr,de,nl,pt&downloads=true&watchparty=true&allinone=true&backlink=https://justchilltv.netlify.app`;
         } else {
-            playerUrl = `https://vidora.su/tv/${mediaId}/${season}/${episode}?colour=0089F1&autoplay=true&autonextepisode=true&backbutton=https://justchilltv.netlify.app&pausescreen=true`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&theme=noir&language=en&lang-order=en,hi,fr,de,nl,pt&downloads=true&watchparty=true&allinone=true&backlink=https://justchilltv.netlify.app`;
         }
 
         // Create fullscreen iframe
