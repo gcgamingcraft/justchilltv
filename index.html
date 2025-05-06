@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-title" content="JustChill">
     <link rel="icon" type="image/png" href="jc_favicon_32x32.png">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>JustChill</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -4779,5 +4779,22 @@ function toggleEditMode() {
     editToggle.classList.toggle('fa-edit', !isEditMode);
     editToggle.classList.toggle('fa-check', isEditMode);
 }
+</script>
+<script>
+// Prevent iOS zoom
+document.addEventListener('gesturestart', function(e) {
+    e.preventDefault();
+}, { passive: false });
+
+// Prevent double-tap zoom
+let lastTap = 0;
+document.addEventListener('touchend', function(e) {
+    const currentTime = new Date().getTime();
+    const tapLength = currentTime - lastTap;
+    if (tapLength < 500 && tapLength > 0) {
+        e.preventDefault();
+    }
+    lastTap = currentTime;
+}, { passive: false });
 </script>
 </body></html>
