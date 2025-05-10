@@ -3536,9 +3536,9 @@ closeMobileSearch.addEventListener('click', toggleSearch);
             
         let playerUrl;
         if (mediaType === 'movie') {
-            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&theme=noir&allinone=true&backlink=https://justchilltv.netlify.app/#`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&theme=noir&allinone=true&backlink=https://justchilltv.vercel.app/#`;
         } else {
-            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&theme=noir&allinone=true&backlink=https://justchilltv.netlify.app/#`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&theme=noir&allinone=true&backlink=https://justchilltv.vercel.app/#`;
         }
 
         // Create fullscreen iframe
@@ -4399,8 +4399,7 @@ function loadSeasons(showId, numberOfSeasons) {
 .card-overlay {
     background: var(--glass-bg);
     backdrop-filter: blur(6px);
-    border: 1px solid var(--border-color);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
 
 /* Optional: Add subtle transition for backdrop-filter */
