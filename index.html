@@ -207,8 +207,9 @@
         
         #searchContainer {
     transition: all 0.3s ease;
-    background: var(--card-bg) !important;
-    border: 0px solid var(--border-color) !important;
+    background: var(--apple-glass) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color) !important;
     position: relative; /* Add this */
     width: 300px; /* Fixed width for desktop */
 }
@@ -227,7 +228,7 @@
 
 #mobileSearchResults {
     background: var(--card-bg);
-    border: 1px solid var(--border-color);
+    border: 0px solid var(--border-color);
     border-radius: 0.75rem;
     margin-top: 0.5rem;
     max-height: 60vh;
@@ -242,7 +243,8 @@
 }
 
 #closeMobileSearch {
-    background: var(--card-bg);
+    background: var(--apple-glass) !important;
+    backdrop-filter: blur(10px);
     border-radius: 9999px;
     width: 2.5rem;
     height: 2.5rem;
@@ -252,7 +254,8 @@
     color: var(--text-color);
 }
 #mobileSearchInput {
-    background: var(--card-bg) !important; /* Use theme variable */
+    background: var(--apple-glass) !important;
+    backdrop-filter: blur(10px);
     color: var(--text-color) !important; /* Use theme text color */
     border: 1px solid var(--border-color) !important; /* Use theme border */
 }
@@ -470,7 +473,6 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0,0,0,0.7);
             opacity: 0;
             transition: opacity 0.3s ease;
             display: flex;
@@ -602,7 +604,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            height: 150px;
+            height: 120px;
             background: linear-gradient(to bottom, transparent 0%, var(--bg-color) 100%);
         }
         
@@ -782,17 +784,10 @@
 .light nav {
     background-image: linear-gradient(to bottom, var(--bg-color) 0%, transparent 100%);
 }
-.light .card-overlay h3 {
-    color: var(--text-color);
-}
 .light .logo {
     background: linear-gradient(90deg, #000000, #000000) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-}
-.light .play-card-button {
-    background: var(--text-color);
-    color: var(--card-bg);
 }
         .light .nav-link {
     color: var(--text-color);
@@ -934,7 +929,7 @@
     <style>
     /* Move all nav content up while keeping nav bar position */
     nav > div {
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
 </style>
 <style>
@@ -949,14 +944,14 @@
 <style>
    nav {
         z-index: 60 !important;
-        min-height: calc(150px + env(safe-area-inset-top));
+        min-height: calc(120px + env(safe-area-inset-top));
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
         display: flex;
         align-items: center; /* Vertically center content */
         background-image: linear-gradient(
             to bottom, 
             var(--bg-color) 0%,
-            transparent 150px
+            transparent 120px
         );
     }
     /* Hide scrollbar for all elements */
@@ -4397,8 +4392,8 @@ function loadSeasons(showId, numberOfSeasons) {
     object-position: left;
 }
 .card-overlay {
-    background: var(--glass-bg);
-    backdrop-filter: blur(6px);
+    background: var(--apple-glass) !important;
+    backdrop-filter: blur(10px) brightness(75%);
     border-radius: 0.5rem;
 }
 
@@ -4424,18 +4419,8 @@ function loadSeasons(showId, numberOfSeasons) {
     transform: scale(1.1);
 }
 
-.light .play-card-button {
-    background: rgba(0,0,0,0.9);
-    border-color: rgba(0,0,0,0.2);
-    color: white;
-}
-
 .light .episode-subtitle {
     color: var(--text-color) !important;
-}
-
-.light .play-card-button:hover {
-    background: rgba(0,0,0,1);
 }
 </style>
 <style>
