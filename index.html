@@ -3239,6 +3239,7 @@ html {
         const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/';
         
         // Current state
+        let currentMediaInfo = null;
         let currentMediaType = 'movie';
         let currentMediaId = null;
         let currentSeason = 1;
@@ -3357,18 +3358,15 @@ async function saveToRecent(mediaType, mediaId, season = null, episode = null) {
         
         const recentItems = JSON.parse(localStorage.getItem('recentItems') || '[]');
         
-        // Remove existing entries with the same poster (thumbnail)
-        const existingPosterIndexes = recentItems
-            .map((item, index) => (item.poster === data.poster_path) ? index : -1)
-            .filter(index => index !== -1)
-            .reverse();
-        
-        existingPosterIndexes.forEach(index => recentItems.splice(index, 1));
+        // Remove existing entries with the same ID and type
+        const filteredItems = recentItems.filter(item => 
+            !(item.id === mediaId.toString() && item.type === mediaType)
+        );
         
         // Add new entry
-        recentItems.unshift({
+        filteredItems.unshift({
             type: mediaType,
-            id: mediaId,
+            id: mediaId.toString(),
             title: mediaType === 'movie' ? data.title : data.name,
             poster: data.poster_path,
             season: season,
@@ -3376,15 +3374,13 @@ async function saveToRecent(mediaType, mediaId, season = null, episode = null) {
             year: mediaType === 'movie' ? 
                 (data.release_date ? new Date(data.release_date).getFullYear() : '') : 
                 (data.first_air_date ? new Date(data.first_air_date).getFullYear() : ''),
-            rating: data.vote_average || 0
+            rating: data.vote_average || 0,
+            timestamp: Date.now()
         });
         
         // Keep only last 20 items
-        if (recentItems.length > 20) {
-            recentItems.pop();
-        }
-        
-        localStorage.setItem('recentItems', JSON.stringify(recentItems));
+        const newItems = filteredItems.slice(0, 20);
+        localStorage.setItem('recentItems', JSON.stringify(newItems));
         loadRecentItems();
     } catch (error) {
         console.error('Error saving to recent:', error);
@@ -3411,30 +3407,40 @@ function loadRecentItems() {
         const card = document.createElement('div');
         card.className = 'content-card flex-shrink-0 w-48 cursor-pointer';
         card.innerHTML = `
-            <div class="relative overflow-hidden rounded-lg mb-2">
-                ${item.poster ? `
-                <img src="${IMAGE_BASE_URL}original${item.poster}" 
-                     alt="${item.title}" 
-                     class="w-full h-auto object-cover">
-                ` : ''}
-                <button class="delete-btn">
-                    <i class="fas fa-times"></i>
-                </button>
-                <div class="card-overlay">
-                    <button class="play-card-button bg-white text-black font-semibold px-4 py-2 rounded flex items-center space-x-2 mx-auto mb-2">
-                        <i class="fas fa-play"></i>
-                        <span class="text-sm">Resume</span>
-                    </button>
-                    <h3 class="font-semibold text-center">${item.title}</h3>
-                    ${item.type === 'tv' ? `<p class="text-center text-sm episode-subtitle">S${item.season.toString().padStart(2, '0')}E${item.episode.toString().padStart(2, '0')}</p>` : ''}
-                </div>
-            </div>
-            <div class="flex items-center text-sm text-secondary">
-                <span>${item.rating !== undefined ? item.rating.toFixed(1) : 'N/A'}</span>
-                <span class="mx-1">•</span>
-                <span>${item.year || ''}</span>
-            </div>
-        `;
+    <div class="relative overflow-hidden rounded-lg mb-2">
+    ${item.poster ? `
+    <img src="${IMAGE_BASE_URL}original${item.poster}" 
+         alt="${item.title}" 
+         class="w-full h-auto object-cover">` : ''}
+    <!-- Progress bar moved outside overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-1 bg-gray-800 z-20">
+        ${item.progress ? `
+        <div class="h-full bg-blue-500" 
+             style="width: ${item.progress}%"></div>` : ''}
+    </div>
+    <button class="delete-btn">
+        <i class="fas fa-times"></i>
+    </button>
+    <div class="card-overlay">
+        <button class="play-card-button bg-white text-black font-semibold px-4 py-2 rounded flex items-center space-x-2 mx-auto mb-2">
+            <i class="fas fa-play"></i>
+            <span class="text-sm">Resume</span>
+        </button>
+        <h3 class="font-semibold text-center">${item.title}</h3>
+        ${item.type === 'tv' ? `
+        <p class="text-center text-sm episode-subtitle">
+            S${item.season.toString().padStart(2, '0')}E${item.episode.toString().padStart(2, '0')}
+            ${item.progress ? `<br>${formatTime(item.currentTime || 0)} / ${formatTime(item.duration || 0)}` : ''}
+        </p>` : 
+        (item.progress ? `<p class="text-center text-sm episode-subtitle">${formatTime(item.currentTime || 0)} / ${formatTime(item.duration || 0)}</p>` : '')}
+    </div>
+</div>
+    <div class="flex items-center text-sm text-secondary">
+        <span>${item.rating !== undefined ? item.rating.toFixed(1) : 'N/A'}</span>
+        <span class="mx-1">•</span>
+        <span>${item.year || ''}</span>
+    </div>
+`;
         
         // Add delete functionality
         const deleteBtn = card.querySelector('.delete-btn');
@@ -3517,6 +3523,7 @@ closeMobileSearch.addEventListener('click', toggleSearch);
         
         async function openPlayerModal(mediaType, mediaId, season = 1, episode = 1) {
     try {
+        currentMediaInfo = { mediaType, mediaId, season, episode };
         // Fetch fresh media details
         const response = await fetch(`${BASE_URL}/${mediaType}/${mediaId}?api_key=${API_KEY}`);
         const data = await response.json();
@@ -3531,9 +3538,9 @@ closeMobileSearch.addEventListener('click', toggleSearch);
             
         let playerUrl;
         if (mediaType === 'movie') {
-            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&theme=noir&allinone=true&backlink=https://justchilltv.vercel.app/#`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-movie-${mediaId}?logo=false&tips=false&theme=noir&allinone=true&&backlink=https://justchilltv.vercel.app/#`;
         } else {
-            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&theme=noir&allinone=true&backlink=https://justchilltv.vercel.app/#`;
+            playerUrl = `https://iframe.pstream.org/embed/tmdb-tv-${mediaId}/${season}/${episode}?logo=false&tips=false&theme=noir&allinone=true&backlink=https://justchilltv.vercel.app/#`;
         }
 
         // Create fullscreen iframe
@@ -4418,10 +4425,6 @@ function loadSeasons(showId, numberOfSeasons) {
     background: rgba(255,255,255,1);
     transform: scale(1.1);
 }
-
-.light .episode-subtitle {
-    color: var(--text-color) !important;
-}
 </style>
 <style>
 /* Add this CSS to enforce consistent aspect ratio */
@@ -4560,25 +4563,6 @@ function loadSeasons(showId, numberOfSeasons) {
         position: absolute;
         top: 5px;
         right: 5px;
-        background: rgba(0,0,0,0.7);
-        border-radius: 50%;
-        width: 24px;
-        height: 24px;
-        display: none;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        z-index: 2;
-    }
-    .delete-btn i {
-        color: white;
-        font-size: 14px;
-    }
-    
-    .light .delete-btn {
-        position: absolute;
-        top: 5px;
-        right: 5px;
         background: rgba(255,255,255, 0.7);
         border-radius: 50%;
         width: 24px;
@@ -4589,7 +4573,7 @@ function loadSeasons(showId, numberOfSeasons) {
         cursor: pointer;
         z-index: 2;
     }
-    .light .delete-btn i {
+    .delete-btn i {
         color: black;
         font-size: 14px;
     }
@@ -4597,6 +4581,28 @@ function loadSeasons(showId, numberOfSeasons) {
     [data-row].edit-mode .delete-btn {
     display: flex;
 }
+.progress-bar-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: rgba(255,255,255,0.2);
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #0071e3, #00a2ff);
+    transition: width 0.3s ease;
+}
+
+.episode-time {
+    font-size: 0.75rem;
+    color: var(--secondary-text);
+    margin-top: 0.25rem;
+}
+
 </style>
 <script>
 async function loadFeaturedContent() {
@@ -4780,5 +4786,91 @@ document.addEventListener('touchend', function(e) {
     }
     lastTap = currentTime;
 }, { passive: false });
+</script>
+<script>
+window.addEventListener("message", (event) => {
+    if (event.origin !== "https://iframe.pstream.org") return;
+
+    // Handle episode changes
+    if (event.data.type === "episodeChanged") {
+        const { seasonNumber, episodeNumber, tmdbId } = event.data;
+        
+        // Update recent items
+        const recentItems = JSON.parse(localStorage.getItem('recentItems') || '[]');
+        const existingIndex = recentItems.findIndex(item => 
+            item.id === tmdbId && item.type === 'tv'
+        );
+
+        if (existingIndex > -1) {
+            // Update existing entry
+            recentItems[existingIndex].season = seasonNumber;
+            recentItems[existingIndex].episode = episodeNumber;
+            recentItems[existingIndex].timestamp = Date.now();
+        } else {
+            // Add new entry if not found (shouldn't normally happen)
+            recentItems.unshift({
+                type: 'tv',
+                id: tmdbId,
+                season: seasonNumber,
+                episode: episodeNumber,
+                timestamp: Date.now()
+            });
+        }
+
+        localStorage.setItem('recentItems', JSON.stringify(recentItems));
+        loadRecentItems();
+        
+        // Show visual feedback
+        showUpdateNotification(`Updated to S${seasonNumber}E${episodeNumber}`);
+    }
+
+    // Optional: Handle time updates for progress tracking
+    if (event.data.type === "playerTimeUpdate") {
+        updateProgress(currentMediaInfo, event.data.time, event.data.duration);
+    }
+});
+
+// Progress tracking function
+function updateProgress(mediaInfo, currentTime, totalDuration) {
+    const progress = (currentTime / totalDuration) * 100;
+    const recentItems = JSON.parse(localStorage.getItem('recentItems') || '[]');
+    
+    const item = recentItems.find(item => 
+        item.id === mediaInfo.mediaId.toString() && 
+        item.type === mediaInfo.mediaType
+    );
+    
+    if (item) {
+        item.progress = progress;
+        item.currentTime = currentTime;
+        item.duration = totalDuration;
+        item.lastWatched = Date.now();
+        localStorage.setItem('recentItems', JSON.stringify(recentItems));
+        loadRecentItems(); // Refresh the recent items display
+    }
+}
+
+// Visual feedback notification
+function showUpdateNotification(message) {
+    const notification = document.createElement('div');
+    notification.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg flex items-center';
+    notification.innerHTML = `
+        <i class="fas fa-check-circle mr-2"></i>
+        ${message}
+    `;
+    
+    document.body.appendChild(notification);
+    setTimeout(() => notification.remove(), 3000);
+}
+function formatTime(seconds) {
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const secs = Math.floor(seconds % 60);
+    return [
+        hours.toString().padStart(2, '0'),
+        minutes.toString().padStart(2, '0'),
+        secs.toString().padStart(2, '0')
+    ].join(':');
+}
 </script>
 </body></html>
