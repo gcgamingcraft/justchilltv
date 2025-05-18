@@ -4791,36 +4791,39 @@ document.addEventListener('touchend', function(e) {
 window.addEventListener("message", (event) => {
     if (event.origin !== "https://iframe.pstream.org") return;
 
-    // Handle episode changes
     if (event.data.type === "episodeChanged") {
         const { seasonNumber, episodeNumber, tmdbId } = event.data;
         
-        // Update recent items
-        const recentItems = JSON.parse(localStorage.getItem('recentItems') || '[]');
-        const existingIndex = recentItems.findIndex(item => 
-            item.id === tmdbId && item.type === 'tv'
-        );
+        // Always create a new entry first
+        let recentItems = JSON.parse(localStorage.getItem('recentItems') || '[]');
+        recentItems.unshift({
+            type: 'tv',
+            id: tmdbId,
+            season: seasonNumber,
+            episode: episodeNumber,
+            timestamp: Date.now()
+        });
 
-        if (existingIndex > -1) {
-            // Update existing entry
-            recentItems[existingIndex].season = seasonNumber;
-            recentItems[existingIndex].episode = episodeNumber;
-            recentItems[existingIndex].timestamp = Date.now();
-        } else {
-            // Add new entry if not found (shouldn't normally happen)
-            recentItems.unshift({
-                type: 'tv',
-                id: tmdbId,
-                season: seasonNumber,
-                episode: episodeNumber,
-                timestamp: Date.now()
-            });
+        // Transfer data to most recent valid entry
+        if (recentItems.length > 1) {
+            // Find first valid recent entry (skip index 0 which is our new temp entry)
+            const mostRecentValid = recentItems.find((item, index) => 
+                index > 0 && item.title && item.poster
+            );
+
+            if (mostRecentValid) {
+                // Update most recent valid entry with new episode data
+                mostRecentValid.season = seasonNumber;
+                mostRecentValid.episode = episodeNumber;
+                mostRecentValid.timestamp = Date.now();
+            }
         }
+
+        // Remove our temporary undefined entry
+        recentItems = recentItems.filter(item => item.title && item.poster);
 
         localStorage.setItem('recentItems', JSON.stringify(recentItems));
         loadRecentItems();
-        
-        // Show visual feedback
         showUpdateNotification(`Updated to S${seasonNumber}E${episodeNumber}`);
     }
 
