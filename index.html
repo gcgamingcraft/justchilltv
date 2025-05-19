@@ -1,4 +1,6 @@
 <html lang="en"><head>
+    <link rel="preconnect" href="https://image.tmdb.org">
+<link rel="dns-prefetch" href="https://image.tmdb.org">
     <!-- Web App Manifest -->
 <link rel="manifest" href="/manifest.json">
 
@@ -3989,7 +3991,7 @@ function loadSeasons(showId, numberOfSeasons) {
                         const title = mediaType === 'movie' ? item.title : item.name;
                         const overview = item.overview || 'No overview available.';
                         const backdrop = item.backdrop_path ? 
-                            `${IMAGE_BASE_URL}original${item.backdrop_path}` : 
+                            `${IMAGE_BASE_URL}w1280${item.backdrop_path}` : 
                             'https://via.placeholder.com/1920x1080?text=No+Backdrop';
                         
                         slide.innerHTML = `
