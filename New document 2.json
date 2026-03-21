@@ -1,0 +1,1758 @@
+{
+  "exportType" : "fusionWidgets",
+  "exportVersion" : 1,
+  "widgets" : [
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Top 10 Movies of the Day",
+          "listSlug" : "top-10-movies-of-the-day",
+          "traktId" : 33498091,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.DE7FAF98-8792-4E41-B147-3A4B2FC62F71",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Popular Movies",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Top 10 Shows of the Day",
+          "listSlug" : "top-10-shows-of-the-day",
+          "traktId" : 33498088,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.7CDEDF2C-B367-42D4-98F0-78E88D98F2C1",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Popular Shows",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Trending Movies",
+                    "listSlug" : "trending-movies",
+                    "traktId" : 33032593,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "70CCE1AE-3678-4F80-95FF-6A6B8D9F955A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/8Pd080D6\/EBR_TVA_WW_TRENDINGMOVIES.png",
+              "title" : "Trending Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Trending Shows",
+                    "listSlug" : "trending-shows",
+                    "traktId" : 33032820,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "DE16E5BC-5FBB-443E-9AD2-D56AFFC3484A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Dw2Y7Py5\/EBR_TVA_WW_TRENDINGSHOWS.png",
+              "title" : "Trending Shows"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Movies (Digital Release)",
+                    "listSlug" : "latest-movies-digital-release",
+                    "traktId" : 33032845,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "AF273560-4D9B-40E7-8A9A-6239D415BEE1",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/FzFNK9r4\/447BA943_EBC6_47FE_8B34_31F34B28FD7C.png",
+              "title" : "Latest Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Shows",
+                    "listSlug" : "latest-shows",
+                    "traktId" : 33032842,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "68FD932D-93CA-4A73-99FB-02A9D058455D",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/pXN3kVbm\/FA2A6D2F_8DB1_4E31_9CAF_7B457FA27A29.png",
+              "title" : "Latest Shows"
+            }
+          ]
+        }
+      },
+      "id" : "collection.5AD963CC-B8A4-4A00-AE2E-4F51F86CCB0B",
+      "title" : "Trending \/ Latest",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "limit" : 20,
+          "releaseChannel" : "cinema",
+          "releaseStatus" : "released",
+          "sortBy" : "popularity.desc",
+          "type" : "movie",
+          "voteCountGTE" : 20
+        }
+      },
+      "id" : "starter.carousel.theaters",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "large",
+        "overlay" : "frost"
+      },
+      "sort" : "popularity.desc",
+      "title" : "In Theaters Now",
+      "type" : "hero.banner"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Action Movies",
+                    "listSlug" : "popular-action-movies",
+                    "traktId" : 33032919,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Action Shows",
+                    "listSlug" : "popular-action-shows",
+                    "traktId" : 33032916,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "21073968-1ECB-4AF1-B70A-6EC6C4EE92AD",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/action-poster.jpg",
+              "title" : "Action"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animated Movies",
+                    "listSlug" : "popular-animated-movies",
+                    "traktId" : 33032925,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animated Shows",
+                    "listSlug" : "popular-animated-shows",
+                    "traktId" : 33032922,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "5F2479E0-949F-4FC5-9E94-35CDF057052E",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/animation2-poster.jpg",
+              "title" : "Animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Comedy Movies",
+                    "listSlug" : "popular-comedy-movies",
+                    "traktId" : 33032930,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Comedy Shows",
+                    "listSlug" : "popular-comedy-shows",
+                    "traktId" : 33032929,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "FBC69AEB-F8A8-4291-AF1C-08E045D174DE",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/comedy-poster.jpg",
+              "title" : "Comedy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Documentary Movies",
+                    "listSlug" : "popular-documentary-movies",
+                    "traktId" : 33123349,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Documentary Shows",
+                    "listSlug" : "popular-documentary-shows",
+                    "traktId" : 33123359,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B10AA0BC-8B79-4258-AC80-C87D437EAB4A",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/documentary-poster.jpg",
+              "title" : "Documentary"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Drama Movies",
+                    "listSlug" : "popular-drama-movies",
+                    "traktId" : 33032935,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Drama Shows",
+                    "listSlug" : "popular-drama-shows",
+                    "traktId" : 33032934,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "BBE85BE7-42B5-455A-8C49-48FAE6637F0F",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/drama-poster.jpg",
+              "title" : "Drama"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Family Movies",
+                    "listSlug" : "family-movies",
+                    "traktId" : 22032854,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "16269022-6732-4C46-9BEE-520A34D27F4E",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/family-poster.jpg",
+              "title" : "Family"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Horror Movies",
+                    "listSlug" : "popular-horror-movies",
+                    "traktId" : 33032936,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Horror Shows",
+                    "listSlug" : "popular-horror-shows",
+                    "traktId" : 33032939,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7A579937-77AB-49DC-9159-D8BFE631B14D",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/horror-poster.jpg",
+              "title" : "Horror"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top 250 Movies (iMDB)",
+                    "listSlug" : "top-250-movies-imdb",
+                    "traktId" : 33032976,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top 250 Shows (iMDB)",
+                    "listSlug" : "top-250-shows-imdb",
+                    "traktId" : 33032979,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "EC24DDDF-65C6-4A51-A1D7-E3579E50C184",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/imdb3-poster.jpg",
+              "title" : "IMDb"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular KDrama Movies",
+                    "listSlug" : "popular-kdrama-movies",
+                    "traktId" : 33265536,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular KDrama Shows",
+                    "listSlug" : "popular-kdrama-shows",
+                    "traktId" : 33265509,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3F037F31-94DC-4AFD-A0C0-DB9D922711B1",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/korean2-poster.jpg",
+              "title" : "Korean"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Miniseries",
+                    "listSlug" : "popular-miniseries",
+                    "traktId" : 33233569,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "30F44E1E-54D7-450C-BD81-9C203F75BCAE",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/miniseries2-poster.jpg",
+              "title" : "Miniseries"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top 250 Narrative Feature Films (Letterboxd Official)",
+                    "listSlug" : "top-250-narrative-feature-films-letterboxd-official",
+                    "traktId" : 33380497,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "F917145D-87CB-4449-A986-6511EB62A5A8",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/narrative-poster.jpg",
+              "title" : "Narrative"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Romance Movies",
+                    "listSlug" : "popular-romance-movies",
+                    "traktId" : 33132644,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Romance Shows",
+                    "listSlug" : "popular-romance-shows",
+                    "traktId" : 33132723,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E18E7A55-2F1B-49F5-B1C8-F7A02D480738",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/romance-poster.jpg",
+              "title" : "Romance"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Sci-Fi Movies",
+                    "listSlug" : "popular-sci-fi-movies",
+                    "traktId" : 33032944,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Sci-Fi Shows",
+                    "listSlug" : "popular-sci-fi-shows",
+                    "traktId" : 33032946,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "298E47CB-2A88-48BA-B3D3-3A5335861875",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/scifi-poster.jpg",
+              "title" : "Sci-fi"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Thriller Movies",
+                    "listSlug" : "popular-thriller-movies",
+                    "traktId" : 33032952,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Thriller Shows",
+                    "listSlug" : "popular-thriller-shows",
+                    "traktId" : 33032950,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "6DF6EAD7-EE97-4C6B-BEF3-8E6BE3991208",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/poster\/dangeruex23\/thriller-poster.jpg",
+              "title" : "Thriller"
+            }
+          ]
+        }
+      },
+      "id" : "collection.451A4C19-F67F-4825-BEC4-5E7CD2D3D440",
+      "title" : "Genres",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Netflix Movies",
+                    "listSlug" : "top-netflix-movies",
+                    "traktId" : 33032882,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Netflix Shows",
+                    "listSlug" : "top-netflix-shows",
+                    "traktId" : 33032878,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "D362D71E-4B0D-4C8A-9BD0-F4847E5505B8",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/y8Vr7yYp\/EBR_TVA_WW_NETFLIX.png",
+              "title" : "Netflix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Amazon Prime Shows",
+                    "listSlug" : "top-amazon-prime-shows",
+                    "traktId" : 33032887,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Amazon Prime Movies",
+                    "listSlug" : "top-amazon-prime-movies",
+                    "traktId" : 33032892,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "76AD2011-9CF8-4C28-8B73-B3392DA19970",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/MK0FkFxn\/EBR_TVA_WW_PRIMEVIDEO.png",
+              "title" : "Prime Video"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Disney+ Movies",
+                    "listSlug" : "top-disney-movies",
+                    "traktId" : 33032904,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Disney+ Shows",
+                    "listSlug" : "top-disney-shows",
+                    "traktId" : 33032903,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "251E8CCF-782F-4057-B422-2DE8CA764B0B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/XYVDnk7D\/EBR_TVA_WW_DISNEYPLUS.png",
+              "title" : "Disney+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Apple TV+ Movies",
+                    "listSlug" : "top-apple-tv-movies",
+                    "traktId" : 33032900,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Apple TV+ Shows",
+                    "listSlug" : "top-apple-tv-shows",
+                    "traktId" : 33032894,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3E6288B0-FEFE-4DDB-B75E-A7031A5F2584",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Hs0hGhH7\/EBR_TVA_WW_APPLETV.png",
+              "title" : "Apple TV"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top HBO Max Movies",
+                    "listSlug" : "top-hbo-max-movies",
+                    "traktId" : 33032914,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top HBO Max Shows",
+                    "listSlug" : "top-hbo-max-shows",
+                    "traktId" : 33032911,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "74D0A799-C723-48E5-9015-6A9D31060C4F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/jd6FVFKF\/EBR_TVA_WW_HBOMAX.png",
+              "title" : "HBO Max"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Paramount+ Movies",
+                    "listSlug" : "top-paramount-movies",
+                    "traktId" : 33032910,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Paramount+ Shows",
+                    "listSlug" : "top-paramount-shows",
+                    "traktId" : 33032908,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B8417A22-0DF5-4D5E-834F-92982212AA7C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/L6kbdbRV\/EBR_TVA_WW_PARAMOUNTPLUS.png",
+              "title" : "Paramount+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Hulu Movies",
+                    "listSlug" : "top-hulu-movies",
+                    "traktId" : 33118941,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Hulu Shows",
+                    "listSlug" : "top-hulu-shows",
+                    "traktId" : 33118956,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "D0C3DAEC-9CF1-4359-AE54-6AD649C9C5C4",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/65Vmsmwq\/EBR_TVA_WW_HULU.png",
+              "title" : "Hulu"
+            }
+          ]
+        }
+      },
+      "id" : "collection.304189DA-77D2-4D0F-946F-191F800FE129",
+      "title" : "Streaming Services",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "James Bond",
+                    "listSlug" : "james-bond",
+                    "traktId" : 31788775,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E2EEC0FC-29C0-4D71-9975-ADA177E1F4FB",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-007.png",
+              "title" : "007"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Alien",
+                    "listSlug" : "alien",
+                    "traktId" : 31821017,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "alien",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-alien.png",
+              "title" : "Alien"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Avatar",
+                    "listSlug" : "avatar",
+                    "traktId" : 33744778,
+                    "username" : "Kirky62"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "avatar",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-avatar.png",
+              "title" : "Avatar"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Back to the Future",
+                    "listSlug" : "back-to-the-future",
+                    "traktId" : 32199686,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "back-to-the-future",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-back-to-the-future.png",
+              "title" : "Back to the Future"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Blade Runner (Chronological)",
+                    "listSlug" : "blade-runner-chronological",
+                    "traktId" : 32424045,
+                    "username" : "furglitch"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "blade-runner",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-blade-runner.png",
+              "title" : "Blade Runner"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Conjuring Universe",
+                    "listSlug" : "the-conjuring-universe",
+                    "traktId" : 31878663,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "conjuring",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-conjuring.png",
+              "title" : "Conjuring"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Creed",
+                    "listSlug" : "creed",
+                    "traktId" : 26737471,
+                    "username" : "MadMax2004"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "creed",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-creed.png",
+              "title" : "Creed"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "DC Movies",
+                    "listSlug" : "dc-movies",
+                    "traktId" : 3989015,
+                    "username" : "AraChn0id"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "dc-comics",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-dc-comics.png",
+              "title" : "DC Comics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "dune",
+                    "listSlug" : "dune",
+                    "traktId" : 32517134,
+                    "username" : "pjohnston1"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "dune",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-dune.png",
+              "title" : "Dune"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Expendables",
+                    "listSlug" : "the-expendables",
+                    "traktId" : 32347354,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "expendables",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-expendables.png",
+              "title" : "The Expendables"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Fast & Furious Universe",
+                    "listSlug" : "the-fast-furious-universe",
+                    "traktId" : 11362509,
+                    "username" : "mri8879"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "fast-and-furious",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-fast-furious.png",
+              "title" : "Fast & Furious"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Ghostbusters",
+                    "listSlug" : "ghostbusters",
+                    "traktId" : 21798668,
+                    "username" : "silvol"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "ghostbusters",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-ghostbusters.png",
+              "title" : "Ghostbusters"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Godfather Collection",
+                    "listSlug" : "the-godfather-collection",
+                    "traktId" : 32382561,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "godfather",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-godfather.png",
+              "title" : "The Godfather"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Harry Potter Collection",
+                    "listSlug" : "harry-potter-collection",
+                    "traktId" : 32378710,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "harry-potter",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-harry-potter.png",
+              "title" : "Harry Potter"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Indiana Jones Collection",
+                    "listSlug" : "indiana-jones-collection",
+                    "traktId" : 32382610,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "indiana-jones",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-indiana-jones.png",
+              "title" : "Indiana Jones"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "John Wick Collection",
+                    "listSlug" : "john-wick-collection",
+                    "traktId" : 32382577,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "john-wick",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-john-wick.png",
+              "title" : "John Wick"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Jurassic Park Collection",
+                    "listSlug" : "jurassic-park-collection",
+                    "traktId" : 32378934,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "jurassic-park",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-jurassic-park.png",
+              "title" : "Jurassic Park"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Marvel Cinematic Universe",
+                    "listSlug" : "marvel-cinematic-universe",
+                    "traktId" : 32377421,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "marvel",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-marvel.png",
+              "title" : "Marvel"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Matrix",
+                    "listSlug" : "matrix",
+                    "traktId" : 24891175,
+                    "username" : "sjmarsenal85"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "matrix",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-matrix.png",
+              "title" : "Matrix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Mission Impossible Collection",
+                    "listSlug" : "mission-impossible-collection",
+                    "traktId" : 32378615,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "mission-impossible",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-mission-impossible.png",
+              "title" : "Mission Impossible"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Pirates of the Caribbean Collection",
+                    "listSlug" : "pirates-of-the-caribbean-collection",
+                    "traktId" : 32377354,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "pirates-of-the-caribbean",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-pirates-of-the-caribbean.png",
+              "title" : "Pirates of the Caribbean"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Planet of the Apes (Reboot)",
+                    "listSlug" : "planet-of-the-apes-reboot",
+                    "traktId" : 32377380,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "planet-of-the-apes",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-planet-of-the-apes.png",
+              "title" : "Planet of the Apes"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Rambo Collection",
+                    "listSlug" : "rambo-collection",
+                    "traktId" : 33133854,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "rambo",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-rambo.png",
+              "title" : "Rambo"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Rocky Collection",
+                    "listSlug" : "rocky-collection",
+                    "traktId" : 32402568,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "rocky",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-rocky.png",
+              "title" : "Rocky"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "scooby doo",
+                    "listSlug" : "scooby-doo",
+                    "traktId" : 32416411,
+                    "username" : "anj_anj_anj"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "scooby-doo",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-scooby-doo.png",
+              "title" : "Scooby-Doo"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Star Trek (Theatrical Movie Releases)",
+                    "listSlug" : "star-trek-theatrical-movie-releases",
+                    "traktId" : 30613386,
+                    "username" : "arose1"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "star-trek",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-star-trek.png",
+              "title" : "Star Trek"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Star Wars Collection",
+                    "listSlug" : "star-wars-collection",
+                    "traktId" : 32379017,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "star-wars",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-star-wars.png",
+              "title" : "Star Wars"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Hunger Games",
+                    "listSlug" : "the-hunger-games",
+                    "traktId" : 32376949,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "the-hunger-games",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-the-hunger-games.png",
+              "title" : "The Hunger Games"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Middle Earth",
+                    "listSlug" : "middle-earth",
+                    "traktId" : 32242000,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "the-lord-of-the-rings",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-the-lord-of-the-rings.png",
+              "title" : "The Lord of the Rings"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Transformers",
+                    "listSlug" : "transformers",
+                    "traktId" : 31815595,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "transformers",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-transformers.png",
+              "title" : "Transformers"
+            }
+          ]
+        }
+      },
+      "id" : "collection.BDB06908-20C1-4432-A103-DA9A10FF2BAE",
+      "title" : "Collections",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 7200,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "limit" : 20,
+          "sortBy" : "popularity.desc",
+          "type" : "movie",
+          "voteAverageGTE" : 8,
+          "voteCountGTE" : 1000
+        }
+      },
+      "id" : "starter.acclaimed.movies",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : true,
+          "ratings" : true
+        },
+        "cardStyle" : "large"
+      },
+      "sort" : "popularity.desc",
+      "title" : "Critically Acclaimed",
+      "type" : "carousel.cinematic"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 1960s Movies",
+                    "listSlug" : "popular-1960s-movies",
+                    "traktId" : 33747299,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B9BF5546-4425-4D83-9277-1A202BF744BF",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/1960s-wide.png",
+              "title" : "1960s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 1970s Movies",
+                    "listSlug" : "popular-1970s-movies",
+                    "traktId" : 33119476,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "012B97BD-8FC9-4121-A4B3-CF85467E0A16",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/1970s-wide.png",
+              "title" : "1970s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 1980s Movies",
+                    "listSlug" : "popular-1980s-movies",
+                    "traktId" : 33032956,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9EA0C8C5-5BC7-49DB-A36F-8642339233EF",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/1980s-wide.png",
+              "title" : "1980s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 1990s Movies",
+                    "listSlug" : "popular-1990s-movies",
+                    "traktId" : 33032959,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "52EFD12F-603F-46D4-A6A7-B0FB6DAF45DA",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/1990s-wide.png",
+              "title" : "1990s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 2000s Movies",
+                    "listSlug" : "popular-2000s-movies",
+                    "traktId" : 33032965,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B62FFE83-246A-4841-9A9D-3FFB489CE881",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/2000s-wide.png",
+              "title" : "2000s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 2010s Movies",
+                    "listSlug" : "popular-2010s-movies",
+                    "traktId" : 33032968,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "67B31F23-D1F6-4422-B033-CEC11633644E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/2010s-wide.png",
+              "title" : "2010s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 2020s Movies",
+                    "listSlug" : "popular-2020s-movies",
+                    "traktId" : 33032971,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9B203A86-9C01-4A52-B930-B3F36ABBECD5",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/mousa.a\/2020s-wide.png",
+              "title" : "2020s"
+            }
+          ]
+        }
+      },
+      "id" : "collection.8ECF3B71-24F4-4A53-9551-A96959FF023E",
+      "title" : "Decades",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "BAFTA - Best Film Award Winners",
+                    "listSlug" : "bafta-best-film-award-winners",
+                    "traktId" : 24791084,
+                    "username" : "foux72"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C58803F9-FD39-4883-B071-EFD2F1958B30",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/bafta-poster.png",
+              "title" : "Bafta"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Film Independent Spirit Awards — Best Feature",
+                    "listSlug" : "film-independent-spirit-awards-best-feature",
+                    "traktId" : 32197432,
+                    "username" : "victorchagas"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "916FFA3C-C83F-4D5B-8C16-73EE10466C7D",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/fisa-poster.png",
+              "title" : "Fisa"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Rotten Tomatoes’ Golden Globes Best Picture Winners by Tomatometer copy",
+                    "listSlug" : "rotten-tomatoes-golden-globes-best-picture-winners-by-tomatometer-copy",
+                    "traktId" : 6241767,
+                    "username" : "danielle0412"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7625F088-76A2-4205-AEEF-57BB9213B6A4",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/goldenglobes-poster.png",
+              "title" : "Goldenglobes"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Festival de Cannes: Palme d'Or winners",
+                    "listSlug" : "festival-de-cannes-palme-d-or-winners",
+                    "traktId" : 32434377,
+                    "username" : "PierreDurrr"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "53E09759-4582-4F74-8CBE-7C11D51238A9",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/iff-poster.png",
+              "title" : "Iff"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Oscars: Best Picture Nominees",
+                    "listSlug" : "the-oscars-best-picture-nominees",
+                    "traktId" : 33535789,
+                    "username" : "jackrabbitslim"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C4D3FAA0-AD75-46F1-A852-B9E8B3659034",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/oscars-poster.png",
+              "title" : "Oscars"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Venice Film Festival - Golden Lion",
+                    "listSlug" : "venice-film-festival-golden-lion",
+                    "traktId" : 9360302,
+                    "username" : "maxwelldeux"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "A0B38152-ED99-4E70-BDBB-97968091B3E0",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/viff-poster.png",
+              "title" : "Viff"
+            }
+          ]
+        }
+      },
+      "id" : "collection.624AE481-A010-400F-8C4F-F1ADBAADAA95",
+      "title" : "Awards",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Paul Thomas Anderson",
+                    "listSlug" : "paul-thomas-anderson",
+                    "traktId" : 31014346,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "07B16E1A-9733-4743-A79C-83B528E4DF3C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/anderson-wide.png",
+              "title" : "Anderson"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "John Carpenter",
+                    "listSlug" : "john-carpenter",
+                    "traktId" : 31014355,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "AC7F02AE-8741-4B3E-A39F-F40D5331722F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/carpenter-wide.png",
+              "title" : "Carpenter"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Brian De Palma",
+                    "listSlug" : "brian-de-palma",
+                    "traktId" : 31014353,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "83AADEC3-2EE5-4611-B85E-18B3BFEC3E73",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/depalma-wide.png",
+              "title" : "Depalma"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "David Fincher",
+                    "listSlug" : "david-fincher",
+                    "traktId" : 31014339,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7E22EC53-3F0E-4847-914E-BB7EFBF4A890",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/fincher-wide.png",
+              "title" : "Fincher"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Alfred Hitchcock",
+                    "listSlug" : "alfred-hitchcock",
+                    "traktId" : 31014342,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "CF0B9F63-E218-4D14-87EE-BD34E038E46A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/hitchcock-wide.png",
+              "title" : "Hitchcock"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Stanley Kubrick",
+                    "listSlug" : "stanley-kubrick",
+                    "traktId" : 31014332,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "1C7D1BA0-6C6C-464F-9910-4657968FE55B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/kubrick-wide.png",
+              "title" : "Kubrick"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Christopher Nolan",
+                    "listSlug" : "christopher-nolan",
+                    "traktId" : 31014301,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4A7D8CD3-3743-4E10-A018-B258F3E7604F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/nolan-wide.png",
+              "title" : "Nolan"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Martin Scorsese",
+                    "listSlug" : "martin-scorsese",
+                    "traktId" : 31014311,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "F1DA0A73-B949-45FE-950C-0CC83E17CBC1",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/scorsese-wide.png",
+              "title" : "Scorsese"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Steven Spielberg",
+                    "listSlug" : "steven-spielberg",
+                    "traktId" : 31014326,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9DF126F6-F9F9-4363-9926-4EE72DD77040",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/spielberg-wide.png",
+              "title" : "Spielberg"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Denis Villeneuve",
+                    "listSlug" : "denis-villeneuve",
+                    "traktId" : 31014352,
+                    "username" : "Mawsa"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "414A2A62-DF0C-4B7E-910E-DB2F87A1E9D3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/villeneuve-wide.png",
+              "title" : "Villeneuve"
+            }
+          ]
+        }
+      },
+      "id" : "collection.D3970BED-E9FB-4E7F-9B21-4809D88D6B7C",
+      "title" : "Directors",
+      "type" : "collection.row"
+    }
+  ]
+}
