@@ -554,8 +554,35 @@
               "hideTitle" : true,
               "id" : "D362D71E-4B0D-4C8A-9BD0-F4847E5505B8",
               "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/y8Vr7yYp\/EBR_TVA_WW_NETFLIX.png",
+              "imageURL" : "https:\/\/i.postimg.cc\/VNmsZ2L2\/IMG-1287.jpg",
               "title" : "Netflix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Apple TV+ Movies",
+                    "listSlug" : "top-apple-tv-movies",
+                    "traktId" : 33032900,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Apple TV+ Shows",
+                    "listSlug" : "top-apple-tv-shows",
+                    "traktId" : 33032894,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3E6288B0-FEFE-4DDB-B75E-A7031A5F2584",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/B69PZ2Dv\/Apple_TV.webp",
+              "title" : "Apple TV"
             },
             {
               "dataSources" : [
@@ -581,7 +608,7 @@
               "hideTitle" : true,
               "id" : "76AD2011-9CF8-4C28-8B73-B3392DA19970",
               "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/MK0FkFxn\/EBR_TVA_WW_PRIMEVIDEO.png",
+              "imageURL" : "https:\/\/i.postimg.cc\/LXKg4jfY\/Prime_Video.jpg",
               "title" : "Prime Video"
             },
             {
@@ -608,35 +635,8 @@
               "hideTitle" : true,
               "id" : "251E8CCF-782F-4057-B422-2DE8CA764B0B",
               "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/XYVDnk7D\/EBR_TVA_WW_DISNEYPLUS.png",
+              "imageURL" : "https:\/\/i.postimg.cc\/kGRVN0KT\/Disney.jpg",
               "title" : "Disney+"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Top Apple TV+ Movies",
-                    "listSlug" : "top-apple-tv-movies",
-                    "traktId" : 33032900,
-                    "username" : "snoak"
-                  }
-                },
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Top Apple TV+ Shows",
-                    "listSlug" : "top-apple-tv-shows",
-                    "traktId" : 33032894,
-                    "username" : "snoak"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "3E6288B0-FEFE-4DDB-B75E-A7031A5F2584",
-              "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/Hs0hGhH7\/EBR_TVA_WW_APPLETV.png",
-              "title" : "Apple TV"
             },
             {
               "dataSources" : [
@@ -662,7 +662,7 @@
               "hideTitle" : true,
               "id" : "74D0A799-C723-48E5-9015-6A9D31060C4F",
               "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/jd6FVFKF\/EBR_TVA_WW_HBOMAX.png",
+              "imageURL" : "https:\/\/i.postimg.cc\/8k7wnsb0\/Hbo-Max.jpg",
               "title" : "HBO Max"
             },
             {
@@ -689,7 +689,7 @@
               "hideTitle" : true,
               "id" : "B8417A22-0DF5-4D5E-834F-92982212AA7C",
               "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/L6kbdbRV\/EBR_TVA_WW_PARAMOUNTPLUS.png",
+              "imageURL" : "https:\/\/i.postimg.cc\/FKFVbKRG\/Paramount.jpg",
               "title" : "Paramount+"
             },
             {
@@ -716,13 +716,297 @@
               "hideTitle" : true,
               "id" : "D0C3DAEC-9CF1-4359-AE54-6AD649C9C5C4",
               "imageAspect" : "wide",
-              "imageURL" : "https:\/\/i.postimg.cc\/65Vmsmwq\/EBR_TVA_WW_HULU.png",
+              "imageURL" : "https:\/\/i.postimg.cc\/FzNP8gFX\/Hulu.jpg",
               "title" : "Hulu"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.83487",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.83484",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "8b03adf3-e2b0-4043-9cb7-8820aace1926",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/85QfkLW7\/Peacock.jpg",
+              "title" : "Peacock"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "anime::streaming.cru_movie",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "anime::streaming.cru_series",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "b63018e9-0f51-49eb-abb8-af7263da1afa",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Y0PMVVjb\/18-45er-2560-jpg.webp",
+              "title" : "Crunchyroll"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.62454",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.43438",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "fb481a0a-1654-43af-ab2b-3f69a7db733f",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/tTnhj8VJ\/shudder_3.webp",
+              "title" : "Shudder"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.149584",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "865c74e0-d512-4a75-9d82-d1ba4e8af8c3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/rmH64DDY\/amc.webp",
+              "title" : "AMC+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.15385",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "428a93a6-45a4-424b-ab9d-fd898a5f5b19",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/k4HrS22Y\/britbox.png",
+              "title" : "britbox"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.mgl_series",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.mgl_movie",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9a07061c-a943-4b60-8b2c-44ff5c0c04e3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/bJ5XnZZC\/magellantv.webp",
+              "title" : "MagellanTV"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.sta_series",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.sta_movie",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "f9d3a537-ba14-43e3-9703-28c67529c8f2",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/vBKRn44h\/starz_2.jpg",
+              "title" : "STARZ"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.cts_series",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.cts_movie",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "f5195fb9-af52-46ab-8d5f-07d64311ad2a",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/v85c6kMV\/curiiosity_new.jpg",
+              "title" : "Curiosity Stream"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.dpe_series",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.dpe_movie",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "1013cab1-0263-414c-9789-74d18612cf3c",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/wvrKN11r\/discovery.jpg",
+              "title" : "discovery+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.mub_movie",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.mub_series",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3a48bbbc-2c33-4e4b-8a83-c3fc79747a5a",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Px7GDCC2\/mubi.jpg",
+              "title" : "MUBI"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.crc_movie",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.crc_series",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7ee29e9c-79ba-4f11-a593-890226af2d27",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/vBKRn44X\/the_criterion_channel.webp",
+              "title" : "The Criterion Channel"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::streaming.nfk_movie",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::streaming.nfk_series",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9d495610-6af9-454a-bd91-f48ae2342476",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/L5b2Tyhb\/netflix_kids.jpg",
+              "title" : "Netflix Kids"
             }
           ]
         }
       },
-      "id" : "collection.304189DA-77D2-4D0F-946F-191F800FE129",
+      "id" : "collection.d5d45c69-a628-4ba5-897e-ed442722ddd1",
       "title" : "Streaming Services",
       "type" : "collection.row"
     },
@@ -736,126 +1020,18 @@
                 {
                   "kind" : "traktList",
                   "payload" : {
-                    "listName" : "James Bond",
-                    "listSlug" : "james-bond",
-                    "traktId" : 31788775,
-                    "username" : "drjenkins"
+                    "listName" : "Marvel Cinematic Universe",
+                    "listSlug" : "marvel-cinematic-universe",
+                    "traktId" : 32377421,
+                    "username" : "vanbushi"
                   }
                 }
               ],
               "hideTitle" : true,
-              "id" : "E2EEC0FC-29C0-4D71-9975-ADA177E1F4FB",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-007.png",
-              "title" : "007"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Alien",
-                    "listSlug" : "alien",
-                    "traktId" : 31821017,
-                    "username" : "drjenkins"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "alien",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-alien.png",
-              "title" : "Alien"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Avatar",
-                    "listSlug" : "avatar",
-                    "traktId" : 33744778,
-                    "username" : "Kirky62"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "avatar",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-avatar.png",
-              "title" : "Avatar"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Back to the Future",
-                    "listSlug" : "back-to-the-future",
-                    "traktId" : 32199686,
-                    "username" : "drjenkins"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "back-to-the-future",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-back-to-the-future.png",
-              "title" : "Back to the Future"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Blade Runner (Chronological)",
-                    "listSlug" : "blade-runner-chronological",
-                    "traktId" : 32424045,
-                    "username" : "furglitch"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "blade-runner",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-blade-runner.png",
-              "title" : "Blade Runner"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "The Conjuring Universe",
-                    "listSlug" : "the-conjuring-universe",
-                    "traktId" : 31878663,
-                    "username" : "drjenkins"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "conjuring",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-conjuring.png",
-              "title" : "Conjuring"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Creed",
-                    "listSlug" : "creed",
-                    "traktId" : 26737471,
-                    "username" : "MadMax2004"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "creed",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-creed.png",
-              "title" : "Creed"
+              "id" : "marvel",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/g0BNgjdf\/Marvel.jpg",
+              "title" : "Marvel"
             },
             {
               "dataSources" : [
@@ -871,9 +1047,63 @@
               ],
               "hideTitle" : true,
               "id" : "dc-comics",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-dc-comics.png",
-              "title" : "DC Comics"
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/zGMpg1RJ\/DC-Universe.jpg",
+              "title" : "DC Universe"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "James Bond",
+                    "listSlug" : "james-bond",
+                    "traktId" : 31788775,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E2EEC0FC-29C0-4D71-9975-ADA177E1F4FB",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/L5LHFfB0\/007.jpg",
+              "title" : "007"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Star Wars Collection",
+                    "listSlug" : "star-wars-collection",
+                    "traktId" : 32379017,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "star-wars",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Wz08p7rv\/Star-Wars.jpg",
+              "title" : "Star Wars"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Star Trek (Theatrical Movie Releases)",
+                    "listSlug" : "star-trek-theatrical-movie-releases",
+                    "traktId" : 30613386,
+                    "username" : "arose1"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "star-trek",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/qRZnC6GD\/Star-Trek.jpg",
+              "title" : "Star Trek"
             },
             {
               "dataSources" : [
@@ -889,8 +1119,8 @@
               ],
               "hideTitle" : true,
               "id" : "dune",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-dune.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/HnrT6frm\/Dune.jpg",
               "title" : "Dune"
             },
             {
@@ -898,54 +1128,36 @@
                 {
                   "kind" : "traktList",
                   "payload" : {
-                    "listName" : "The Expendables",
-                    "listSlug" : "the-expendables",
-                    "traktId" : 32347354,
+                    "listName" : "Avatar",
+                    "listSlug" : "avatar",
+                    "traktId" : 33744778,
+                    "username" : "Kirky62"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "avatar",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/nLSV4nhT\/AVATAR.jpg",
+              "title" : "Avatar"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Middle Earth",
+                    "listSlug" : "middle-earth",
+                    "traktId" : 32242000,
                     "username" : "drjenkins"
                   }
                 }
               ],
               "hideTitle" : true,
-              "id" : "expendables",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-expendables.png",
-              "title" : "The Expendables"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "The Fast & Furious Universe",
-                    "listSlug" : "the-fast-furious-universe",
-                    "traktId" : 11362509,
-                    "username" : "mri8879"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "fast-and-furious",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-fast-furious.png",
-              "title" : "Fast & Furious"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Ghostbusters",
-                    "listSlug" : "ghostbusters",
-                    "traktId" : 21798668,
-                    "username" : "silvol"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "ghostbusters",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-ghostbusters.png",
-              "title" : "Ghostbusters"
+              "id" : "the-lord-of-the-rings",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/d1bnKfh6\/Lordoftherings.jpg",
+              "title" : "The Lord of the Rings"
             },
             {
               "dataSources" : [
@@ -961,9 +1173,27 @@
               ],
               "hideTitle" : true,
               "id" : "godfather",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-godfather.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/X7YwbzbT\/The-Godfather.jpg",
               "title" : "The Godfather"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Mission Impossible Collection",
+                    "listSlug" : "mission-impossible-collection",
+                    "traktId" : 32378615,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "mission-impossible",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/sfpWfstZ\/MI.jpg",
+              "title" : "Mission Impossible"
             },
             {
               "dataSources" : [
@@ -979,9 +1209,62 @@
               ],
               "hideTitle" : true,
               "id" : "harry-potter",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-harry-potter.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/hjzM6nth\/Harry-Potter.jpg",
               "title" : "Harry Potter"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Pirates of the Caribbean Collection",
+                    "listSlug" : "pirates-of-the-caribbean-collection",
+                    "traktId" : 32377354,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "pirates-of-the-caribbean",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Gmwdxn5R\/Pirates.jpg",
+              "title" : "Pirates of the Caribbean"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143885",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "ec4987ac-c62a-4d30-97a1-d3c94880a6d0",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/sgM8596L\/Kopie-von-Eberhofer.jpg",
+              "title" : "Eberhofer Krimis"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Hunger Games",
+                    "listSlug" : "the-hunger-games",
+                    "traktId" : 32376949,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "the-hunger-games",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/FzfKsZ29\/Hunger-Games.jpg",
+              "title" : "The Hunger Games"
             },
             {
               "dataSources" : [
@@ -997,8 +1280,8 @@
               ],
               "hideTitle" : true,
               "id" : "indiana-jones",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-indiana-jones.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/tCbrtFwS\/Indiana-Jo.jpg",
               "title" : "Indiana Jones"
             },
             {
@@ -1015,8 +1298,8 @@
               ],
               "hideTitle" : true,
               "id" : "john-wick",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-john-wick.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/W14q7rtM\/JW.jpg",
               "title" : "John Wick"
             },
             {
@@ -1024,36 +1307,18 @@
                 {
                   "kind" : "traktList",
                   "payload" : {
-                    "listName" : "Jurassic Park Collection",
-                    "listSlug" : "jurassic-park-collection",
-                    "traktId" : 32378934,
-                    "username" : "vanbushi"
+                    "listName" : "Alien",
+                    "listSlug" : "alien",
+                    "traktId" : 31821017,
+                    "username" : "drjenkins"
                   }
                 }
               ],
               "hideTitle" : true,
-              "id" : "jurassic-park",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-jurassic-park.png",
-              "title" : "Jurassic Park"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Marvel Cinematic Universe",
-                    "listSlug" : "marvel-cinematic-universe",
-                    "traktId" : 32377421,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "marvel",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-marvel.png",
-              "title" : "Marvel"
+              "id" : "alien",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/44F45TNX\/Design-ohne-Titel-3.png",
+              "title" : "Alien"
             },
             {
               "dataSources" : [
@@ -1069,189 +1334,9 @@
               ],
               "hideTitle" : true,
               "id" : "matrix",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-matrix.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/zB9JQpWg\/The-Matrix.jpg",
               "title" : "Matrix"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Mission Impossible Collection",
-                    "listSlug" : "mission-impossible-collection",
-                    "traktId" : 32378615,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "mission-impossible",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-mission-impossible.png",
-              "title" : "Mission Impossible"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Pirates of the Caribbean Collection",
-                    "listSlug" : "pirates-of-the-caribbean-collection",
-                    "traktId" : 32377354,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "pirates-of-the-caribbean",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-pirates-of-the-caribbean.png",
-              "title" : "Pirates of the Caribbean"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Planet of the Apes (Reboot)",
-                    "listSlug" : "planet-of-the-apes-reboot",
-                    "traktId" : 32377380,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "planet-of-the-apes",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-planet-of-the-apes.png",
-              "title" : "Planet of the Apes"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Rambo Collection",
-                    "listSlug" : "rambo-collection",
-                    "traktId" : 33133854,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "rambo",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-rambo.png",
-              "title" : "Rambo"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Rocky Collection",
-                    "listSlug" : "rocky-collection",
-                    "traktId" : 32402568,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "rocky",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-rocky.png",
-              "title" : "Rocky"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "scooby doo",
-                    "listSlug" : "scooby-doo",
-                    "traktId" : 32416411,
-                    "username" : "anj_anj_anj"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "scooby-doo",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-scooby-doo.png",
-              "title" : "Scooby-Doo"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Star Trek (Theatrical Movie Releases)",
-                    "listSlug" : "star-trek-theatrical-movie-releases",
-                    "traktId" : 30613386,
-                    "username" : "arose1"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "star-trek",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-star-trek.png",
-              "title" : "Star Trek"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Star Wars Collection",
-                    "listSlug" : "star-wars-collection",
-                    "traktId" : 32379017,
-                    "username" : "vanbushi"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "star-wars",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-star-wars.png",
-              "title" : "Star Wars"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "The Hunger Games",
-                    "listSlug" : "the-hunger-games",
-                    "traktId" : 32376949,
-                    "username" : "drjenkins"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "the-hunger-games",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-the-hunger-games.png",
-              "title" : "The Hunger Games"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Middle Earth",
-                    "listSlug" : "middle-earth",
-                    "traktId" : 32242000,
-                    "username" : "drjenkins"
-                  }
-                }
-              ],
-              "hideTitle" : true,
-              "id" : "the-lord-of-the-rings",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-the-lord-of-the-rings.png",
-              "title" : "The Lord of the Rings"
             },
             {
               "dataSources" : [
@@ -1267,14 +1352,638 @@
               ],
               "hideTitle" : true,
               "id" : "transformers",
-              "imageAspect" : "poster",
-              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-transformers.png",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/CLw3Lyhx\/Transformers.jpg",
               "title" : "Transformers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Jurassic Park Collection",
+                    "listSlug" : "jurassic-park-collection",
+                    "traktId" : 32378934,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "jurassic-park",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/hjJDMNJn\/JWorld.jpg",
+              "title" : "Jurassic World"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Back to the Future",
+                    "listSlug" : "back-to-the-future",
+                    "traktId" : 32199686,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "back-to-the-future",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/0jdnThL7\/back_to_the_future_5ca752afd83b9.jpg",
+              "title" : "Back to the Future"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Fast & Furious Universe",
+                    "listSlug" : "the-fast-furious-universe",
+                    "traktId" : 11362509,
+                    "username" : "mri8879"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "fast-and-furious",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/6qDp7ZXC\/Fast.jpg",
+              "title" : "Fast & Furious"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.100279",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "da431880-1ae9-4ac7-a065-f2766ea23e23",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/q758Wpgh\/monsterverse_collection_2.jpg",
+              "title" : "Monsterverse"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Rocky Collection",
+                    "listSlug" : "rocky-collection",
+                    "traktId" : 32402568,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "rocky",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/V6tDRJgV\/Rocky.jpg",
+              "title" : "Rocky"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Rambo Collection",
+                    "listSlug" : "rambo-collection",
+                    "traktId" : 33133854,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "rambo",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/2859Y2m2\/Rambo.jpg",
+              "title" : "Rambo"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.125458",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "41a9eac3-6371-4a5c-9a53-615d5d7c2969",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/XqtbbQX9\/Terminator2.jpg",
+              "title" : "Terminator"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.150631",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "b4bddf9f-3f15-4e76-8e38-bcb163d0e6da",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/XJBwbtyr\/scream_collection_3.png",
+              "title" : "Scream"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.134963",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "0c43ea27-eb3f-4eb4-a57c-a1aa7ca5aaa6",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/bvgYYfjt\/nightmare-on-elm-street-collection.png",
+              "title" : "A Nightmare On Elm Street"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153949",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "193dcb85-c356-437b-b20e-c093883bce05",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/7ZB02xG0\/QP.png",
+              "title" : "A Quiet Place"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153948",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "40dfeec9-2364-4662-ad59-45b28a73b07a",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/vTS9BDdt\/Exorcist.png",
+              "title" : "The Exorcist"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153951",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2613ae21-8517-4ae2-a51d-7ac35e54e10e",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/zBWhWh95\/BW.png",
+              "title" : "Blair Witch"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153952",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "d404bc42-1a4c-4bb7-beb3-ca5d02b125f9",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/PxVJWTmb\/Chucky.png",
+              "title" : "Chucky"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.106676",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "38bcfcf2-92bf-44f9-80cc-ad34278919b6",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/dQGLTpvr\/dexter_collection.jpg",
+              "title" : "Dexter"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.99837",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2dee7e82-6bf4-47b1-85a6-1282af599665",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/7P0CjmRn\/Fd.png",
+              "title" : "Final Destination"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.79326",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "e0e45ff7-d537-4b57-b486-68d9d1aa0c52",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/X7mjHgVB\/friday-13th-collection.jpg",
+              "title" : "Friday the 13th"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Ghostbusters",
+                    "listSlug" : "ghostbusters",
+                    "traktId" : 21798668,
+                    "username" : "silvol"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "ghostbusters",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Y9GXN4pF\/Ghostbusters.png",
+              "title" : "Ghostbusters"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153954",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "1df7f1b6-5282-4230-84c2-3bcecebb490e",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/rwf4BBtV\/Halloween.png",
+              "title" : "Halloween"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153953",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "59d20ba6-d3d7-4bdc-b25b-dd8961b17e9d",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/MGQ5sC1X\/Gremlins.png",
+              "title" : "Gremlins"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153963",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9d8394b0-f0b2-4e3e-9a66-0273b2e2847a",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/MG2GphH6\/The_shining.png",
+              "title" : "The Shining"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153962",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "ebfbd54e-4592-4a8c-8402-c66344a0cb44",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/vTXwvB9f\/Purge.png",
+              "title" : "The Purge"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Conjuring Universe",
+                    "listSlug" : "the-conjuring-universe",
+                    "traktId" : 31878663,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "conjuring",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/mr3cX94t\/conjuring.png",
+              "title" : "The Conjuring"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153961",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "d49af394-654b-4bdf-aeb3-44ddd125a758",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/h4Vf76gJ\/terrifier_neu.jpg",
+              "title" : "Terrifier"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.11227",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "98b4f221-498e-4966-ac26-0ee5f031f3aa",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/MGZHjqKv\/Saw.png",
+              "title" : "Saw"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153959",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9c46d4b0-389b-4904-a85a-ebe71e6a5929",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/1tNB0qsv\/Psycho.png",
+              "title" : "Psycho"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153958",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "b4040347-80ba-4226-99d9-aea5e454aa2b",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/B6Kk24fJ\/It.png",
+              "title" : "It"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153956",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3150da57-bfd8-4004-9215-ec88ee4854e7",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/RZJP94q2\/Hdd.png",
+              "title" : "Happy Death Day"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.59780",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3edc8f96-d7af-41b0-80de-fe2f0e4c58e6",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/k4Nhyjz2\/PA.png",
+              "title" : "Paranormal Activity"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153960",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "17cbc7a1-b9d4-470b-8311-28d05777e0be",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/NfHqMvcH\/Quarantine.jpg",
+              "title" : "Quarantine"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153955",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9f868a82-9532-4092-8a0d-7c699fdabf40",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/sf5vZqy5\/hannibal_collection.jpg",
+              "title" : "Hannibal Lecter"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.153950",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "912de161-ac5d-4af9-b424-32b98544a18d",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/i.postimg.cc\/Pf1P89hM\/xxx_collection_new.jpg",
+              "title" : "xXx"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Blade Runner (Chronological)",
+                    "listSlug" : "blade-runner-chronological",
+                    "traktId" : 32424045,
+                    "username" : "furglitch"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "blade-runner",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-blade-runner.png",
+              "title" : "Blade Runner"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Creed",
+                    "listSlug" : "creed",
+                    "traktId" : 26737471,
+                    "username" : "MadMax2004"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "creed",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/hyperpix.net\/wp-content\/uploads\/2019\/07\/creed-movie-logo-font-download-856x484.jpg",
+              "title" : "Creed"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Expendables",
+                    "listSlug" : "the-expendables",
+                    "traktId" : 32347354,
+                    "username" : "drjenkins"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "expendables",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/streamcoimg-a.akamaihd.net\/000\/375\/768\/375768-Banner-L2-0c3f8d94b0586e801e422ca8c0d63d01.jpeg",
+              "title" : "The Expendables"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Planet of the Apes (Reboot)",
+                    "listSlug" : "planet-of-the-apes-reboot",
+                    "traktId" : 32377380,
+                    "username" : "vanbushi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "planet-of-the-apes",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/sun9-9.userapi.com\/impg\/KS96iGrXunfYXxJ7sWIIBj4kBt7mQGsY2yNVqw\/ja13HRejsAY.jpg?quality=90&proxy=1&sign=7c58cdd1d00bf89fa0efc91c476c4765&type=video_thumb",
+              "title" : "Planet of the Apes"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "scooby doo",
+                    "listSlug" : "scooby-doo",
+                    "traktId" : 32416411,
+                    "username" : "anj_anj_anj"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "scooby-doo",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-scooby-doo.png",
+              "title" : "Scooby-Doo"
             }
           ]
         }
       },
-      "id" : "collection.BDB06908-20C1-4432-A103-DA9A10FF2BAE",
+      "id" : "collection.6afdb800-7e6c-45b8-b527-0d5581a03b25",
       "title" : "Collections",
       "type" : "collection.row"
     },
@@ -1752,6 +2461,1202 @@
       },
       "id" : "collection.D3970BED-E9FB-4E7F-9B21-4809D88D6B7C",
       "title" : "Directors",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143365",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143696",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "98dcd7d8-bc6d-4bf9-8678-a642e598409b",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/gjVvtsst\/downey_jr.jpg",
+              "title" : "Robert Downey Jr."
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.142241",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143686",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "d6a13e87-2532-4e0c-a1d7-63ccb6b69fcc",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/J483Hw7y\/zendaya_2.jpg",
+              "title" : "Zendaya"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143685",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143374",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "cee3f05c-d033-4627-85e9-5d7251689aeb",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/Y2YfS27z\/tom_holland_2.jpg",
+              "title" : "Tom Holland"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143688",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143705",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "418ef413-ddc8-44cc-98fa-0f7019336698",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/qvM8Q83K\/jenna_ortega_2.jpg",
+              "title" : "Jenna Ortega"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143689",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "22e9510f-02fa-469d-a83b-c7acb38dbf9d",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/wTz5RKxc\/ryan_reynolds_2.jpg",
+              "title" : "Ryan Reynolds"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143662",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "378f4f4d-132f-4820-a596-c381c1e1a351",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/65hrdHyp\/margot_robbie_2.jpg",
+              "title" : "Margot Robbie"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143687",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "531cef24-4a2a-487c-ae19-0303b898840f",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/fTvcxHJV\/leonardo_di_caprio_2.jpg",
+              "title" : "Leonardo Di Caprio"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143677",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136709",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3ee622e7-6743-4825-be38-354b396c2ca9",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/zBm7dyNc\/emma_stone_2_2.jpg",
+              "title" : "Emma Stone"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143692",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "def59b40-e2d2-423c-9a52-eb787dbd9851",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/XNdcvNWc\/tom_cruise_2.jpg",
+              "title" : "Tom Cruise"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143716",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143673",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "9c90cbb9-c219-414b-b528-07ec4b184be7",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/KzXf91bs\/florence_pugh_2_2.jpg",
+              "title" : "Florence Pugh"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143642",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3dac7338-3ace-42db-b9b0-42c7c06cfe7d",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/rwn5HK1P\/brad_pitt_2.jpg",
+              "title" : "Brad Pitt"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143653",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "360ced84-d487-4cbe-adc5-a5448f44f9f4",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/9Q8ykrdK\/anne_hathaway_2.jpg",
+              "title" : "Anne Hathaway"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.142243",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143639",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "2e2046ae-0959-4395-854a-75055e39f4ea",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/RZswYN7X\/dwayne_johnson_2.jpg",
+              "title" : "Dwayne Johnson"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143678",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143713",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "d56c9b23-d854-4dbe-8fe4-af17b37fd220",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/jqPQjqT6\/sydney_sw_eeney_2.jpg",
+              "title" : "Sydney Sweeney"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143648",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143706",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "b048de2b-7813-40f2-abad-ec13e8391bed",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/wTSSKj9P\/harisson-ford.jpg",
+              "title" : "Harrison Ford"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143704",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143681",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "cddcf37e-eb17-4ad9-9165-f6133b060b3d",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/X7WKBMNP\/nicole_kidman_2.jpg",
+              "title" : "Nicole Kidman"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143645",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "2a6c3042-0d65-49f0-826b-d05005a516c1",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/yYTmFfks\/matt_damon_2.jpg",
+              "title" : "Matt Damon"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143641",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "fac46f62-a57e-42a6-8111-b2271d14ac30",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/L86zvz1Y\/jennifer_lawrance_2.jpg",
+              "title" : "Jennifer Lawrence"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143644",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143717",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "1a8a492c-6d70-4408-a000-9910c3b98adf",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/FKKz2prs\/jackson.jpg",
+              "title" : "Samuel L. Jackson"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143710",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143665",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "08fb9068-5980-4571-aa58-5afb71c3ed00",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/nr90Tq9Z\/millie-bobby-brown.jpg",
+              "title" : "Millie Bobby Brown"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143656",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136686",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "2f976753-a815-4045-979e-9a490562c12a",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/7P0MLP43\/channing_tatum_2.jpg",
+              "title" : "Channing Tatum"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143691",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143358",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "4b3abc59-ed04-41b8-8afc-61f9e61ad4f1",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/rwFSgSrp\/julia_roberts_2.jpg",
+              "title" : "Julia Roberts"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143718",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143690",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "f62e8828-3922-4aa7-841a-ae25da2b782f",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/NjJRn56V\/benedict_cumberbatch_2.jpg",
+              "title" : "Benedict Cumberbatch"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143640",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "52761945-29c2-4fed-9e0b-f630f8a68a38",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/kXCNRrMW\/sandra_bullock_2.jpg",
+              "title" : "Sandra Bullock"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.147855",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "051f250c-006f-4d57-b536-4225aa29e29e",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/4NwyPGJ4\/31161711-B14E-4900-A2CF-0353CE3D0529.jpg",
+              "title" : "Timothée Chalamet"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143694",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "43580453-2abf-43f8-99e6-87332560247d",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/Kvb73Xc5\/meryl_streep_2.jpg",
+              "title" : "Meryl Streep"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143715",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143652",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "37a7099e-7411-48f1-bac8-e1cf44002518",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/L6Skgd40\/nicolas_cage_2.jpg",
+              "title" : "Nicolas Cage"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143667",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143709",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "810f5642-b153-4e87-9980-1a1050890fa5",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/8kf2ZvSk\/reese-witherspoon.jpg",
+              "title" : "Reese Witherspoon"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143708",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143664",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "ed68dde8-bb1f-4997-b9b9-222daffc2101",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/vBhsbF01\/aniston.jpg",
+              "title" : "Jennifer Aniston"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143646",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3aeb7669-cd0a-4f9e-9da9-9247b93cdffa",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/W1bMSMkn\/jason_statham_2.jpg",
+              "title" : "Jason Statham"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143714",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143675",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "c53f776e-d588-4378-9802-2b248affa418",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/59Lqt9JN\/lily_collins_2.jpg",
+              "title" : "Lily Collins"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143712",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143669",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "a42bb2f8-4439-46e7-bf45-6b931c433a4e",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/RCKQ0Cmx\/steve_carell_2.jpg",
+              "title" : "Steve Carell"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136678",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143666",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "93bde4db-212c-4af3-bf2b-cf70b78621b7",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/k4rsj2CZ\/mila_kunis_2_2.jpg",
+              "title" : "Mila Kunis"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143671",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136700",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "0e097148-bdd1-4558-b9b7-b81dafc630ac",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/3rmCwrh4\/jack_black_2.jpg",
+              "title" : "Jack Black"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136692",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143670",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "ae121aa6-9d6f-4c2e-9f68-8390afc89df8",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/Z576QC8G\/mccarthy.jpg",
+              "title" : "Melissa McCarthy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136695",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143680",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "cec86eee-c2a5-44c1-912c-64f7f20c7993",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/jqPQjqTC\/michael_bully_herbig_2.jpg",
+              "title" : "Michael „Bully“ Herbig"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136706",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143672",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3f5c17b1-a945-494a-93e3-d9677c083210",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/jqPQjqT0\/katherine_heigl.jpg",
+              "title" : "Katherine Heigl"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.143720",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143657",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "207ccc9f-7567-42f5-8450-bed8d2adc981",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/L4LBs4SP\/george_clooney_2.jpg",
+              "title" : "George Clooney"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143643",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "69194935-78e2-4d10-9078-cbfaaff16d85",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/BnY2zXTR\/angelina_jolie_2.jpg",
+              "title" : "Angelina Jolie"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.136684",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143668",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "88990574-4d4a-41d9-a821-078bbd70cf5f",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/ryxCpyTp\/matthew_mcconaughey_2.jpg",
+              "title" : "Matthew McConaughey"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143663",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3e929fef-c267-4bef-8230-95dd58742030",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/BZHcvZ30\/daniel_craig_2.jpg",
+              "title" : "Daniel Craig"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143637",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143373",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "a61e1901-2b4e-4cf0-91ab-82b83517c608",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/cL4QTQnx\/johnny_depp_2.jpg",
+              "title" : "Johnny Depp"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.151294",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "ad5b9d2e-75db-4378-9439-40cf25e7cece",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/85XhQNC2\/christian_bale.jpg",
+              "title" : "Christian Bale"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143651",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "467adaec-774c-428c-838d-f0514f36c2d7",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/c4W7tq1m\/morgan_freeman_2.jpg",
+              "title" : "Morgan Freeman"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143654",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "ac528f1d-0d7c-400f-9f5e-e6d45315d40f",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/B6Wphj3Y\/jim_carrey_2.jpg",
+              "title" : "Jim Carrey"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.145242",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "8a3f609f-95ee-4317-ac4c-e9825406959b",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/6qxCJHSH\/denzel-washington.jpg",
+              "title" : "Denzel Washington"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.151297",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "9033c54f-1b50-4f94-8254-f4e899015a9a",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/MTpyFvWw\/Sylvester_Stallone.jpg",
+              "title" : "Sylvester Stallone"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143658",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "0cd6234a-178d-488c-bdf1-77c3bd117a81",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/ZKmPvkYv\/bill_murray_2.jpg",
+              "title" : "Bill Murray"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143659",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "d711da92-6d6f-45ca-aeca-ae51b14f776f",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/jdT6nVqw\/ben_stiller_2.jpg",
+              "title" : "Ben Stiller"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143660",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3ef0371e-cd67-4704-ae4e-65b6054b38a4",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/CMkHKM0w\/owen_wilson_2.jpg",
+              "title" : "Owen Wilson"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143661",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "db9d0851-f62f-4b3c-8a76-f9aeb8b9fee8",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/BQsm2PQ0\/jonah-hill.jpg",
+              "title" : "Jonah Hill"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.151301",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "71172662-1d74-4a34-92bd-ae6c16ff593d",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/bJVQcpv5\/Arnold_Schwarznegger.jpg",
+              "title" : "Arnold Schwarzenegger"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.151298",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "dfe35058-d80d-4dac-bcff-5ba5cd3e2215",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/bJVQcpvK\/jackie_chan.jpg",
+              "title" : "Jackie Chan"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.151300",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "d69a6c25-f5f8-4e18-be3b-cf4be7a759e8",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/xCpKDnd4\/Clint_Eastwood.jpg",
+              "title" : "Clint Eastwood"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "series::mdblist.142242",
+                    "type" : "series"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "movie::mdblist.143682",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "6f263d89-f1f5-4b6b-8537-c689512ca69f",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/J483Hw73\/robin_williams_2.jpg",
+              "title" : "Robin Williams"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/884a7a9b-a4c3-4362-8cc4-be02897603bc\/manifest.json",
+                    "catalogId" : "all::mdblist.153999",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "99293dd6-e009-4632-9cff-9c69050ef0eb",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/qqRLR3ZR\/chuck-norris.jpg",
+              "title" : "Chuck Norris"
+            }
+          ]
+        }
+      },
+      "id" : "collection.c1ebbee3-c4d2-480c-916e-2462244b8973",
+      "title" : "Actors",
       "type" : "collection.row"
     }
   ]
